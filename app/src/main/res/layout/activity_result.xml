@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgthird"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Result">
+
+
+    <TextView
+        android:id="@+id/tvCongrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:text="Congratulations !"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Score : 20 "
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="play again"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="exit"
+        android:textSize="16sp" />
+</LinearLayout>
